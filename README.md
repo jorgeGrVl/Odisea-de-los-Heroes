@@ -1,4 +1,4 @@
-# Proyecto Integrador | "Odisea de los Héroes"
+# "Odisea de los Héroes"
 ### Introducción
 
 En el emocionante mundo de la Programación Orientada a Objetos (POO), donde la creatividad y la lógica se entrelazan, decidí desarrollar un apasionante proyecto que relacionará los conceptos aprendidos durante el curso, con algo divertido, interactivo e interesante como lo son los videojuegos. Este proyecto, que introduce conceptos fundamentales de la POO a través de un juego de rol de combate por turnos, tiene la intención proporcionarme una experiencia práctica y divertida para aplicar los conceptos aprendidos en el curso y a la par comprender cómo este tipo de programación puede utilizarse para modelar sistemas interactivos.
@@ -12,4 +12,4 @@ En la creación de un juego de rol de combate por turnos, la Programación Orien
 En resumen, un juego de rol de combate por turnos es un escenario ideal para aplicar los principios de la Programación Orientada a Objetos. Este tipo de programación facilita al usuario la creación, gestión y representación de entidades en el juego, así como la implementación de la lógica de juego, proporcionando una base sólida para el desarrollo de un proyecto interactivo y entretenido. Aunque este proyecto es introductorio a la POO y, por ende, relativamente básico, representa un emocionante paso hacia la comprensión de los principios fundamentales de la programación orientada a objetos, así como sus aplicaciones prácticas básicas.
 
 ### Diagrama de Clases
-![diagrama_clases](https://github.com/jorgeGrVl/Proyecto-Odisea-de-los-Heroes/assets/150094617/1563e4e2-28ed-4229-ba09-1d92c0035d5d)
+![diagramaClases_Corregido](https://github.com/jorgeGrVl/Proyecto-Odisea-de-los-Heroes/assets/150094617/fad3489d-5e76-4980-8444-2b717ef864f2)
