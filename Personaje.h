@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//Clase Base del Proyecto
+//Clase Base del Proyecto.
 class Personaje{
 
     protected: //Atributos
