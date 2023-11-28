@@ -4,9 +4,10 @@
 
 using namespace std;
 
+//Clase Base del Proyecto
 class Personaje{
 
-    protected:
+    protected: //Atributos
         string nombre;
         int vida;
         int fuerza;
@@ -15,10 +16,11 @@ class Personaje{
         Habilidad habilidad;
         Herramienta herramienta;
 
-    public:
+    public: //Métodos
         Personaje();
         Personaje(string, int, int, int, int, Habilidad, Herramienta);
-        string getNombre();
+        string getInfo() const;
+        string getNombre() const;
         int getVida();
         int getFuerza();
         int getDefensa();
@@ -33,9 +35,9 @@ class Personaje{
         void setHabilidad(Habilidad);
         void setHerramienta(Herramienta);
         bool compruebaVida();
-        void morir();
-        void recibirEfecto(Herramienta);
+        string morir();
+        string recibirEfecto(Herramienta);
         int calculaAtaque(Personaje&);
-        void lanzaEfecto(Personaje&);
-        void lanzaAtaque(Personaje&);
+        string lanzaEfecto(Personaje&);
+        string lanzaAtaque(Personaje&);
 };
