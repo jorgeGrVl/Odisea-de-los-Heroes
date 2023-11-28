@@ -3,16 +3,17 @@
 
 using namespace std;
 
+//Subclase de la clase Personaje mediante una relación de herencia.
 class Mago : public Personaje{
 
-    private:
+    private: //Atributos
         string clase = "Mago";
         int recuperacion = 5;
 
-    public:
+    public: //Métodos
         Mago();
         Mago(string, int, int, int, int, Habilidad, Herramienta);
         string getClase();
-        void recibeRecuperacion();
+        string recibeRecuperacion();
 
 };
