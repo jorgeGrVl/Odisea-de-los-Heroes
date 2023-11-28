@@ -3,16 +3,17 @@
 
 using namespace std;
 
+//Subclase de la clase Personaje mediante una relación de herencia.
 class Guerrero : public Personaje{
 
-    private:
+    private: //Atributos
         string clase = "Guerrero";
         int furia = 5;
 
-    public:
+    public: //Métodos
         Guerrero();
         Guerrero(string, int, int, int, int, Habilidad, Herramienta);
         string getClase();
-        void recibeFuria();
+        string recibeFuria();
 
 };
