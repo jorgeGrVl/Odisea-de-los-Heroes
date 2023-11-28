@@ -2,17 +2,19 @@
 
 using namespace std;
 
+//Clase que forma parte de los atributos de la clase Personaje mediante una relación de composición.
 class Herramienta{
 
-    private:
+    private: //Atributos
         string nombre;
         string efecto;
         int modificador;
 
-    public:
+    public: //Métodos
         Herramienta();
         Herramienta(string, string, int);
-        string getNombre();
+        string getInfo() const;
+        string getNombre() const;
         string getEfecto();
         int getModificador();
         string aplicarEfecto();
